@@ -9,17 +9,6 @@ Here is the `README.md` file for your project setup, covering both the client an
 
 This project consists of a **frontend** built using React and a **backend** built using Flask and Node.js. The app predicts whether a person is at risk for diabetes based on various input parameters.
 
-## Project Structure
-
-```
-.
-├── client/
-│   └── (React frontend code)
-├── server/
-│   ├── app.py (Flask backend for prediction)
-│   └── server.js (Node.js server for prediction endpoint)
-└── requirements.txt (Python dependencies)
-```
 
 ## Prerequisites
 
