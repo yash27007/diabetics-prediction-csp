@@ -2,22 +2,28 @@
   max-width: 500px;
   margin: 50px auto;
   padding: 20px;
-  background-color: #f9f9f9;
+  background-color: #ffe5ec; /* Soft pink background */
   border-radius: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-  font-family: 'Arial', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
   text-align: center;
+  background-image: linear-gradient(135deg, #ffe5ec, #ffc2d1, #ffb3c6); /* Gradient background */
+  background-size: 100% 100%;
+  border: 1px solid #ffb3c6; /* Light pink border */
 }
 
 .prediction-form-container h1 {
   margin-bottom: 20px;
   color: #333;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .prediction-form {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px; /* Increased gap for better spacing */
 }
 
 .prediction-form label {
@@ -33,26 +39,33 @@
   font-size: 14px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 .prediction-form input:focus {
   outline: none;
-  border-color: #007bff;
-  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  border-color: #ff66b2; /* Highlight input border when focused */
+  box-shadow: 0 0 5px rgba(255, 102, 178, 0.5); /* Add a soft shadow effect */
 }
 
 .prediction-form button {
-  padding: 10px 15px;
+  padding: 12px 18px;
   font-size: 16px;
   color: #fff;
-  background-color: #007bff;
+  background-color: #ff66b2; /* Button color */
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition */
 }
 
 .prediction-form button:hover {
-  background-color: #0056b3;
+  background-color: #ff3385; /* Slightly darker pink on hover */
+  transform: scale(1.05); /* Button grows slightly on hover */
+}
+
+.prediction-form button:active {
+  transform: scale(0.98); /* Button shrinks slightly when clicked */
 }
 
 .prediction-result {
