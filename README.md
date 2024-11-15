@@ -1,10 +1,3 @@
-
-
-
-
-Here is the `README.md` file for your project setup, covering both the client and server, installation steps, and how to run the application:
-
-```markdown
 # Diabetes Prediction App
 
 This project consists of a **frontend** built using React and a **backend** built using Flask and Node.js. The app predicts whether a person is at risk for diabetes based on various input parameters.
